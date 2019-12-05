@@ -36,6 +36,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - express --git --no-view .
 - npm start
   - http://localhost:3000
+- or: npm install nodemon
 - vim package.json
   - "scripts": {
     "start": "node ./bin/www",
@@ -43,3 +44,21 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     },
 - npm run dev
 - rm /routes && /public
+
+## Development Setup
+
+### Client
+
+```sh
+cd client
+npm install
+npm run serve
+```
+
+### Server
+
+```sh
+cd server
+npm install
+npm run dev
+```
